@@ -11,6 +11,8 @@ body {
 
 .title {
     color: white;
+    font-weight: 700;
+    font-size: 50px;
 }
 
 .sub-container {
@@ -23,15 +25,10 @@ body {
     margin-bottom: 10px;
 }
 
-.sub-container ul {
-    border-radius: 20px;
-}
-
 .sub-container li {
     border: none;
     border-bottom: 1px solid #eee;
 }
-
 
 #input-area {
     border-top-left-radius: 10px;
