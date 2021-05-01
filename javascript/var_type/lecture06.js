@@ -65,7 +65,7 @@ console.log(str3.substring(2,4));
 
 // pos2 생략시 pos1에서부터 마지막 까지의 문자열 반환
 console.log(str3.substring(2));
-// cdefghj 출력
+// cdeabcde 출력
 
 // 2. substr(pos, length) : pos에서 length길이 만큼의 부분 문자열 반환.
 console.log(str3.substr(2,4))
@@ -73,7 +73,7 @@ console.log(str3.substr(2,4))
 
 // length 생략시, pos에서 마지막까지의 문자열 반환
 console.log(str3.substr(2));
-// cdefghj 출력
+// cdeabcde 출력
 
 
 // 문자열 검색하기
