@@ -22,7 +22,7 @@ console.log(man.name);
 console.log(man.height);
 console.log(man.age);
 
-// 2번째: 객체이름["속성이름"] -> 속성 이름을 문자열로 적어주어야함.
+// 2번째: 객체이름[속성이름] -> 속성 이름이 문자열일 경우 ""를 적어주어야함.
 console.log(man["name"]);
 console.log(man["height"]);
 console.log(man["age"]);
