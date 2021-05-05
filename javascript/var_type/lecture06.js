@@ -44,6 +44,9 @@ console.log(str.concat(str2).concat("!"))
 console.log(str+str2+"!");
 // Hello World! 출력
 
+// 3. ``사용
+console.log(`hello${str2}`)
+
 
 // 특정위치의 문자열 알아내기
 
