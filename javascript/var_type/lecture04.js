@@ -16,3 +16,5 @@ var e=true, f=false;
 console.log(a,"의 타입은",typeof(a));
 console.log(c,"의 타입은",typeof(c));
 console.log(e,"의 타입은",typeof(e));
+
+// 변수에는 기본 자료형 뿐만 아니라 object 와 function도 할당할 수 있다.
