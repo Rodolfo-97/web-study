@@ -61,11 +61,11 @@ console.log(fruits);  // ["Apple", "Banana"]
 // important note!! -> shift와 unshift는 pop과 push보다 훨씬 느리다기 때문에 가능하면 pop과 push를 사용하자 
 // 앞에서부터 값을 빼거나 넣으면 뒤에 있는 값들도 index 위치를 옮겨 주어야 하기 때문에 시간이 더 많이 걸리기 때문이다.
 
-// splice(index번호, 몇번 index까지 지울 것인지) -> remove an item by index position 
+// splice(index번호, 몇개의 index를 지울 것인지) -> remove an item by index position 
 fruits.push('strawberry','peach','lemon');
 console.log(fruits);  // ["Apple", "Banana", "strawberry", "peach", "lemon"]
-fruits.splice(1,1);  // ["Apple", "strawberry", "peach", "lemon"]
-console.log(fruits);
+fruits.splice(1,1);  // 삭제된 ['Banana']가 리턴
+console.log(fruits);  // ["Apple", "strawberry", "peach", "lemon"]
 
 // 지우려는 개수를 적지 않은 경우 -> 적은 index부터 뒤의 index를 전부 지운다.
 // fruits.splice(1);  // ["Apple"] 
